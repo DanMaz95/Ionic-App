@@ -1,5 +1,5 @@
 angular.module('starter.controllers', ['cordovaVibrationModule'])
-
+//               do i put 'test here'^?                         
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   $scope.loginData = {};
   $ionicModal.fromTemplateUrl('templates/login.html', {

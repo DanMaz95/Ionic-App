@@ -1,5 +1,5 @@
-angular.module('starter', ['ionic', 'starter.controllers', 'ngStorage'])
-
+angular.module('starter', ['ionic', 'starter.controllers', 'test', 'ngStorage'])
+// and test here as well?^
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
 
